@@ -3,14 +3,16 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   ul {
-    background: #06c;
+    //background: #06c;
+    background: rgba(255,218,68);
+    color:#000;
     display: flex;
     padding-left: 0;
     padding-right: 0;
     > li {
       text-align: center;
       width: 50%;
-      color: #ffffff;
+      //color: #ffffff;
       padding: 13px 0;
       &.selected {
         position: relative;

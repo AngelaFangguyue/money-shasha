@@ -10,6 +10,9 @@ import {useLabels} from '../store/useLabels';
 const MyLayout = styled(Layout)`
   display: flex;
   flex-direction: column;
+  background: rgba(255,218,68);
+  color: #000;
+
 `;
 
 

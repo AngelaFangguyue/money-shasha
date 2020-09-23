@@ -29,8 +29,10 @@ const Wrapper = styled.section`
         background: #ddd;
         border-radius: 15px;
         &.selected{
-          background: #06C;
-          color: #ffffff;
+          //background: #06C;
+          //color: #ffffff;
+         background: rgba(255,218,68);
+          color: #000;
         }
       }
     }

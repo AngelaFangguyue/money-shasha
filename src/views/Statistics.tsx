@@ -11,11 +11,13 @@ import dayjs from 'dayjs';
 const Wrapper = styled.div`
   .show{
     text-align: center;
-    background: #0066cc;
+    //background: #0066cc;
+     background:rgba(255,218,68);
+     color: #000;
     border-radius: 10px;
     padding:5px 0;
     >span{
-      color: white;
+      //color: white;
     }
 `;
 

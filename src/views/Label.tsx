@@ -18,14 +18,22 @@ const Wrapper = styled.div`
     color: #000;
     >.icons{
       display: flex;
+      .edit{
+      color:#999
+      }
+      .delete{
+      color:rgba(255,228,68);
+      }
     }
   }
   >.createLabel{
     text-align: center;
     margin: 20px 0;
     >button{
-      background: #0066cc;
-      color: #ffffff;
+      //background: #0066cc;
+      //color: #ffffff;
+      background:rgba(255,218,68);
+      color: #000;
       padding: 5px 10px;
       border-radius: 4px;
     }

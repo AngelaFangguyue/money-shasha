@@ -8,8 +8,10 @@ const Wrapper = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 18px 20px;
-    color: #fff;
-    background: #0066cc;
+    //color: #fff;
+    //background: #0066cc;
+    color: #000;
+    background-color:rgba(255,218,68);
     border-bottom: 1px solid rgba(255,255,255,0.5);
     .icon{
       width:25px;
@@ -17,7 +19,9 @@ const Wrapper = styled.header`
     }
     >div {
       font-size: 22px;
-      color: #ffffff;
+      //color: #ffffff;
+      //color: #000;
+
     }
     >p {
       font-size: 15px;
@@ -31,8 +35,9 @@ type Props ={
 const Bar: React.FunctionComponent<Props> = (props)=>{
   return (
     <Wrapper>
-      <Icon name='person'/>
-      <div>浪浪记账</div>
+      {/*<Icon name={'person'}/>*/}
+      <Icon />
+      <div>极简记账</div>
       <p>{props.name}</p>
     </Wrapper>
   )

@@ -7,9 +7,11 @@ import {getDate} from '../lib/getDate';
 
 const Wrapper = styled.div`
   .TopBar {
-    background: #0066cc;
+    //background: #0066cc;
+    background:rgba(255,218,68);
     height: 170px;
-    color: white;
+ //   color: white;
+     color: #000;
     .text1 {
       padding: 13px 15px;
       font-size: 16px;

@@ -38,7 +38,10 @@ const LineChart = (props:any) => {
         itemStyle: {
           normal: {
             lineStyle: {
+
               color: '#FF0000'
+              //color: '#000'
+
             }
           }
         },
@@ -49,8 +52,8 @@ const LineChart = (props:any) => {
         itemStyle: {
           normal: {
             lineStyle: {
-              color: '#029292'
-            }
+              // color: '#029292'
+              color: 'rgba(248,218,68)'            }
           }
         },
       }

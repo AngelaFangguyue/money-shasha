@@ -36,7 +36,9 @@ const Wrapper = styled.ul`
               color: red;
             }
             &.income{
-              color: #029202;
+              //color: #029202;
+              color: #000;
+
             }
           }
         }

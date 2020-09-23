@@ -18,7 +18,8 @@ const Wrapper = styled.nav`
       justify-content: center;
       align-items: center;
       &.selected{
-        color:#00f;
+        //color:#00f;
+        color:rgba(255,218,68);
       }
   }
     
